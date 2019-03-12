@@ -1,0 +1,13 @@
+1.) Analyze Problem - Do what?
+
+2.) Create a Plan  -  Get your needs
+
+3.) Create an Algorithym - (methods)
+            Step by step process
+			Timeframes
+			Work backwards
+4.) Implement Code
+
+5.) Test  -  On going
+
+6.) Maintain
