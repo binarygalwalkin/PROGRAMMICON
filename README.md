@@ -39,3 +39,8 @@ Where coders of all skill levels come together to help open source projects thri
 "Hacktoberfest is a month-long celebration of open source software. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub." - digital ocean / github
 
 Check out the details https://github.com/programmicon/hacktoberfest
+
+## 24 Pull Requests - Give back!
+24 Pull Requests is a yearly initiative to encourage contributors around the world to send 24 pull requests between December 1st and December 24th.
+
+https://github.com/24pullrequests/24pullrequests
