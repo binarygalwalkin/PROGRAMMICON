@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head><link rel="stylesheet" type="text/css" href="description/Combined.css,0:HeaderFooterSprite,0:Header.NonMtps,1:LinkList;/Areas/Centers/Themes/StandardDevCenter/Content:0,/Areas/Epx/Themes/Base/Content:1&amp;amp;hashKey=C9973DA951AE6202C9B348379A1BE49D" xmlns="http://www.w3.org/1999/xhtml" />
+<link type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml" />
+<link rel="stylesheet" type="text/css" href="description/67b74b86-a273-4ad7-9ed5-0f97276412eaCombined.css,0:HeaderFooterSprite,0:Footer.NonMtps,1:LinkList;/Areas/Centers/Themes/StandardDevCenter/Content:0,/Areas/Epx/Themes/Base/Content:1&amp;amp;hashKey=F576C687BC536B84D6E5B3246EE39B49" xmlns="http://www.w3.org/1999/xhtml" />
+<link type="text/css" rel="stylesheet" xmlns="http://www.w3.org/1999/xhtml" />
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Complete Math Quiz tutorial sample</title>
+        <link href="description/Galleries.css" type="text/css" rel="Stylesheet" /><link href="description/Layout.css" type="text/css" rel="Stylesheet" /><link href="description/Brand.css" type="text/css" rel="Stylesheet" />
+            <link href="description/librarydescription.css" rel="Stylesheet" type="text/css" />
+        <link href="description/iframedescription.css" rel="Stylesheet" type="text/css" />
+        <script src="description/offline.js" type="text/javascript"></script>
+        <style type="text/css">
+            #projectInfo {
+                overflow: auto;
+            }
+            #longDesc {
+                clear:both;
+                margin: 25px 0 10px 0;
+            }
+
+            #SampleIndexList{
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+<body>
+    <div id="offlineDescription">
+        <h1>Complete Math Quiz tutorial sample</h1>
+        <br/>
+        <div id="projectInfo">
+            <div class="section">
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Technologies">Technologies</label>
+                        <div id="Technologies">
+                            Controls, Windows Forms, Visual Basic .NET, Visual C Sharp .NET
+                        </div>
+                    </div>
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Topics">Topics</label>
+                        <div id="Topics">
+                            Controls, Visual Studio Editor, Windows Forms, input, Visual Basic .NET, Event Handling, Data Validation, Visual C Sharp .NET
+                        </div>
+                    </div>
+                <div class="itemBarLong">
+                    <label for="Platforms">Platforms</label>
+                    <div id="Platforms">
+                        Desktop
+                    </div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="Requirements">Requirements</label>
+                    <div id="Requirements">
+                        
+                    </div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Primary language</label>
+                    <div id="LastUpdated">en-US</div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Updated</label>
+                    <div id="LastUpdated">10/25/2013</div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="License">License</label>
+                    <div id="License">
+                        <a href="license.rtf">Apache License, Version 2.0</a></div>
+                </div>
+                <div class="itemBar">
+                    <div class="viewonlinecont">
+                        <a data-link="online" href="http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c">View this sample online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                   
+<script type="text/javascript">
+    function initializePage() {
+        var otherTabClass = 'otherTab';
+        var hiddenPreClass = 'hidden';
+
+        var htmlDecode = function(encodedData) {
+            var decodedData = "";
+            if (encodedData) {
+                var div = document.createElement('div');
+                div.innerHTML = encodedData;
+                decodedData = div.firstChild.nodeValue.replace( /\\r\\n/ig , '\r\n');
+            }
+            return decodedData;
+        };
+                
+        Galleries.iterateElem(Galleries.findElem(null, 'div', 'scriptcode'), function (index, scriptBlock) {
+            var titleElem = Galleries.findElem(scriptBlock, 'div', 'title')[0];
+            var labelElems = Galleries.findElem(titleElem, 'span');
+            if (labelElems.length == 0) {
+                labelElems = titleElem;
+            }
+            var languageSpans = Galleries.findElem(scriptBlock, 'span', 'hidden');
+            var pres = Galleries.findElem(scriptBlock, 'pre');
+            if (languageSpans.length > 0 && pres.length > 1) {
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    var languageSpan = languageSpans[index];
+                            
+                    elem.code = codePre.innerHTML.replace( /(\r(\n)?)|((\r)?\n)/ig , '\\r\\n');
+                            
+                    codePre.className = codePre.className.replace(hiddenPreClass, '');
+                            
+                    languageSpan.parentNode.removeChild(languageSpan);
+                });
+
+                pres = Galleries.findElem(scriptBlock, 'pre');
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    if (index == 0) {
+                        scriptBlock.activeTab = 0;
+                    }
+                    else {
+                        labelSpan.className += otherTabClass;
+                        codePre.className += hiddenPreClass;
+                    }
+                    Galleries.attachEventHandler(labelSpan, 'click', function(e) {
+                        var activeTab = scriptBlock.activeTab;
+                        labelElems[activeTab].className += otherTabClass;
+                        pres[activeTab].className += hiddenPreClass;
+
+                        codePre.className = codePre.className.replace(hiddenPreClass, '');
+                        labelSpan.className = labelSpan.className.replace(otherTabClass, '');
+                        scriptBlock.activeTab = index;
+                    });
+                });
+
+                var preview = Galleries.findElem(scriptBlock, 'div', 'preview');
+                if (preview.length == 0) {
+                    preview.push(pres[pres.length - 1]);
+                }
+                Galleries.iterateElem(preview, function(index, elem) {
+                    elem.parentNode.removeChild(elem);
+                });
+
+                if (window.clipboardData && clipboardData.setData) {
+                    var copyLink = document.createElement('a');
+                    copyLink.href = 'javascript:void(0);';
+                    copyLink.className = 'copyCode';
+                    copyLink.innerHTML = 'Copy code';
+                    Galleries.attachEventHandler(copyLink, 'click', function (e) {
+                        clipboardData.setData("Text", htmlDecode(labelElems[scriptBlock.activeTab].code));
+                        return false;
+                    });
+                    scriptBlock.insertBefore(copyLink, scriptBlock.childNodes[0]);
+                }
+            }
+        });
+    }
+
+    Galleries.onWindowLoad(function(){
+        initializePage();
+    });
+
+</script>
+<div id="longDesc">
+    
+<div class="content">
+<div>
+<div class="topic">
+<div class="majorTitle">Visual Studio 2012</div>
+<h1 class="title">Tutorial 2: Create a Timed Math Quiz</h1>
+<div id="mainSection">
+<div id="mainBody">
+<div class="introduction">
+<p>In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:</p>
+<ul>
+<li>
+<p>Generate random numbers by using the <strong>Random</strong> class.</p>
+</li><li>
+<p>Trigger events to occur at a specific time by using a <span class="label">Timer</span> control.</p>
+</li><li>
+<p>Control program flow by using <span><span class="input">if else</span></span> statements.</p>
+</li><li>
+<p>Perform basic arithmetic operations in code.</p>
+</li></ul>
+<p>When you finish, your quiz will look like the following picture, except with different numbers.</p>
+<div class="caption">Quiz that you create in this tutorial</div>
+<br>
+<img id="Express_FinishedQuiz" alt="Math quiz with four problems" src="http://i.msdn.microsoft.com/en-us/library/vstudio/dd492172.Express_FinishedQuiz(v=vs.120).png" title="Math quiz with four problems">
+<p>To download a completed version of the quiz, see <a href="http://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c">
+Complete Math Quiz tutorial sample</a>.</p>
+<div class="alert">
+<table>
+<tbody>
+<tr>
+<th align="left"><img id="alert_note" alt="Note" src="http://i.msdn.microsoft.com/en-us/library/vstudio/dd492172.alert_note(v=vs.120).gif" title="Note"><strong>Note</strong></th>
+</tr>
+<tr>
+<td>
+<p>This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="LW_CollapsibleArea_Container">
+<div class="LW_CollapsibleArea_TitleDiv"><span class="LW_CollapsibleArea_Title">Related Topics</span>
+<div class="LW_CollapsibleArea_HrDiv">
+<hr class="LW_CollapsibleArea_Hr">
+</div>
+</div>
+<a id="sectionToggle0"></a>
+<div class="caption"></div>
+<div class="tableSection">
+<table>
+<tbody>
+<tr>
+<th>
+<p>Title</p>
+</th>
+<th>
+<p>Description</p>
+</th>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492178.aspx">Step 1: Create a Project and Add Labels to Your Form</a></span></p>
+</td>
+<td>
+<p>Start by creating the project, changing properties, and adding <span class="input">
+Label</span> controls.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492147.aspx">Step 2: Create a Random Addition Problem</a></span></p>
+</td>
+<td>
+<p>Create an addition problem, and use the <strong>Random</strong> class to generate random numbers.
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492144.aspx">Step 3: Add a Countdown Timer</a></span></p>
+</td>
+<td>
+<p>Add a countdown timer so that the quiz can be timed.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492165.aspx">Step 4: Add the CheckTheAnswer() Method</a></span></p>
+</td>
+<td>
+<p>Add a method to check whether the quiz taker entered a correct answer for the problem.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492138.aspx">Step 5: Add Enter Event Handlers for the NumericUpDown Controls</a></span></p>
+</td>
+<td>
+<p>Add event handlers that make your quiz easier to take.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492142.aspx">Step 6: Add a Subtraction Problem</a></span></p>
+</td>
+<td>
+<p>Add a subtraction problem that generates random numbers, uses the timer, and checks for correct answers.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492175.aspx">Step 7: Add Multiplication and Division Problems</a></span></p>
+</td>
+<td>
+<p>Add multiplication and division problems that generate random numbers, use the timer, and check for correct answers.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span><a href="http://msdn.microsoft.com/en-us/library/vstudio/dd492174.aspx">Step 8: Customize the Quiz</a></span></p>
+</td>
+<td>
+<p>Try other features, such as changing colors and adding a hint.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+    </div>
+</body>
+</html>

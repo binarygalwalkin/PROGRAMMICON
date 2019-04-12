@@ -1,0 +1,9 @@
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\bin\Debug\Math Quiz.exe.config
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\bin\Debug\Math Quiz.exe
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\bin\Debug\Math Quiz.pdb
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math Quiz.csprojResolveAssemblyReference.cache
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math_Quiz.Form1.resources
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math_Quiz.Properties.Resources.resources
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math Quiz.csproj.GenerateResource.Cache
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math Quiz.exe
+c:\users\kempb\documents\visual studio 2013\Projects\Math Quiz\Math Quiz\obj\Debug\Math Quiz.pdb
