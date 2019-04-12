@@ -38,11 +38,4 @@ Where coders of all skill levels come together to help open source projects thri
 
 "Hacktoberfest is a month-long celebration of open source software. Each October, open source maintainers give new contributors extra attention as they guide developers through their first pull requests on GitHub." - digital ocean / github
 
-Get registered (in the Fall - October): https://hacktoberfest.digitalocean.com/
-
-Find projects to lend a hand:
-https://github.com/topics/hacktoberfest
-
-https://github.com/topics/help-wanted
-
-https://github.com/search?q=Hacktoberfest-2019
+Check out the details https://github.com/programmicon/hacktoberfest
