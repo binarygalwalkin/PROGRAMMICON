@@ -2,11 +2,6 @@
 
 Words to live by - a compilation of good shit to help new programmers. 
 
-# Quotes which embody this repo
-
-“You've baked a really lovely cake, but then you've used dog shit for frosting.”  ― Steve Jobs
-
-
 # This Repo 
 Is a collection of source material which has helped me, so I pay this forward. **I claim NO OWNERSHIP**. It is a work-in-progress.
 
