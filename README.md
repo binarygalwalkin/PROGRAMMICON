@@ -11,7 +11,7 @@ Is a collection of source material which has helped me, so I pay this forward. *
 This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](http://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 # Copyright Notice
-Most sources found here are attributed. The trademarks/copyrights are kept with the original content / up to the individual content owners **I claim NO OWNERSHIP**,  please contact them.
+Most sources found here are attributed. The trademarks/copyrights are kept with the original content / up to the individual content owners, **I claim NO OWNERSHIP**,  please contact them.
 
 # Other Helpful Shit
 
