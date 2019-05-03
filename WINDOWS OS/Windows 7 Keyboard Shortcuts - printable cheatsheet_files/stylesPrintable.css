@@ -1,0 +1,40 @@
+
+
+.shortcuts h1 {font-family: arial;margin: 0; padding: 0;}
+
+.shortcuts table 
+	{
+		border: solid 1px #666;
+		border-bottom: none;
+		border-left:0;
+		border-right: 1;
+	}
+
+.shortcuts td 
+	{
+		border: 0; 
+		font-family: arial;
+		border: solid 1px #666; 
+		border-top:0;
+		border-right: solid 1px #666; 
+		font-size: 11px;
+	}
+
+.catheader
+	{ 
+		background-color: #c3d9ff;
+		font-weight:bold;
+	}
+
+
+.appheader
+{
+	font-size: 30px;
+	background:#333;
+	color: #fff;
+}
+
+.key
+{
+	font-weight: bold;
+}
