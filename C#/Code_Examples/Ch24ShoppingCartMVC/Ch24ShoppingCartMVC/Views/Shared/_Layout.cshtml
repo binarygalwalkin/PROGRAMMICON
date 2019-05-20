@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/Main.css" rel="stylesheet" />
+    @RenderSection("css", required: false)
+</head>
+<body>
+    <header><img src="~/Content/Images/banner.jpg" alt="Store" /></header>
+    <aside>
+        <nav>
+            <ul id="menu">
+                <li>@Html.ActionLink("Home", "Index/", "Home")</li>
+                <li>@Html.ActionLink("Order", "Index/", "Order")</li>
+                <li>@Html.ActionLink("Cart", "List/", "Cart")</li>
+                <li>@Html.ActionLink("Contact Us", "Contact/", "Home")</li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        @RenderBody()
+    </section>
+    <footer>
+        @RenderSection("footer", required: false)
+        <p id="copyright">&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>        
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/halloween.js" type="text/javascript"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

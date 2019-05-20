@@ -1,0 +1,34 @@
+﻿@model Ch24ShoppingCartMVC.Models.OrderViewModel
+@{
+    ViewBag.Title = "Order";
+    var product = Model.SelectedProduct;
+}
+@section css {
+    <link href="~/Content/Order.css" rel="stylesheet" />
+}
+<form id="frmDropDown" action="/Order/Index/" method="post">
+    <h2>Halloween Store Order Page</h2>
+
+    <label>Please select a product&nbsp;</label>
+    <select id="ddlProducts" name="ddlProducts" class="autoPostBack">
+         @foreach (var item in @Model.ProductsList) {
+            <option value="@item.Value" selected="@item.Selected">@item.Text</option>
+        }
+    </select>
+</form>
+@using (Html.BeginForm("List", "Cart", FormMethod.Post, new { id = "frmCart" })) {
+    <div id="productData">   
+        <label id="lblName">@product.Name</label>
+        @Html.Label("", @product.ShortDescription, new { id = "lblShortDescription" })
+        <label id="lblLongDescription">@product.LongDescription</label>
+        <label id="lblUnitPrice">@product.UnitPrice.ToString("c2")</label>
+        <label id="lblQuantity">Quantity&nbsp;</label>
+        @*<input id="txtQuantity" name="txtQuantity" type="text" value="@product.Quantity" /> 
+        <input type="hidden" name="hdnId" value="@product.ProductID" />*@
+        @Html.TextBoxFor(m => m.SelectedProduct.Quantity, new { id = "txtQuantity" }) 
+        @Html.HiddenFor(m => m.SelectedProduct.ProductID)
+        <br />
+        <input type="submit" id="btnAdd" value="Add to Cart" />
+    </div>
+    <img src="~/Content/Images/Products/@product.ImageFile" alt="" />
+}

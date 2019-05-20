@@ -1,0 +1,13 @@
+﻿@{
+    ViewBag.Title = "Shopping Cart";
+    string day = DateTime.Now.DayOfWeek.ToString();
+}
+@section css {
+    <link href="~/Content/Home.css" rel="stylesheet" />
+}
+<h1>@ViewBag.HeaderText</h1>
+<div>Thank you for visiting us this beautiful @day!</div>
+
+@section footer {
+    <p>@ViewData["FooterText"].ToString()</p>
+}
