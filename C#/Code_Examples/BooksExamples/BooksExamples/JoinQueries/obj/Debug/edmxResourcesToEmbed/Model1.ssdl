@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AuthorISBN">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="AuthorID" Type="int" Nullable="false" />
+    <Property Name="ISBN" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Authors">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+    </Key>
+    <Property Name="AuthorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Titles">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="EditionNumber" Type="int" Nullable="false" />
+    <Property Name="Copyright" Type="varchar" MaxLength="4" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AuthorISBN_Authors">
+    <End Role="Authors" Type="Self.Authors" Multiplicity="1" />
+    <End Role="AuthorISBN" Type="Self.AuthorISBN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="AuthorID" />
+      </Principal>
+      <Dependent Role="AuthorISBN">
+        <PropertyRef Name="AuthorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AuthorISBN_Titles">
+    <End Role="Titles" Type="Self.Titles" Multiplicity="1" />
+    <End Role="AuthorISBN" Type="Self.AuthorISBN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titles">
+        <PropertyRef Name="ISBN" />
+      </Principal>
+      <Dependent Role="AuthorISBN">
+        <PropertyRef Name="ISBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BooksModelStoreContainer">
+    <EntitySet Name="AuthorISBN" EntityType="Self.AuthorISBN" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Authors" EntityType="Self.Authors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Titles" EntityType="Self.Titles" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AuthorISBN_Authors" Association="Self.FK_AuthorISBN_Authors">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="AuthorISBN" EntitySet="AuthorISBN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AuthorISBN_Titles" Association="Self.FK_AuthorISBN_Titles">
+      <End Role="Titles" EntitySet="Titles" />
+      <End Role="AuthorISBN" EntitySet="AuthorISBN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
