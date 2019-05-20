@@ -1,0 +1,15 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\Books.mdf
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\Books_log.ldf
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\MasterDetail.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\MasterDetail.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\MasterDetail.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\BooksExamples.dll
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\EntityFramework.dll
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\BooksExamples.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\bin\Debug\EntityFramework.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\obj\Debug\MasterDetail.Details.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\obj\Debug\MasterDetail.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\obj\Debug\MasterDetail.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\obj\Debug\MasterDetail.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\obj\Debug\MasterDetail.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\MasterDetail\obj\Debug\MasterDetail.csprojResolveAssemblyReference.cache
