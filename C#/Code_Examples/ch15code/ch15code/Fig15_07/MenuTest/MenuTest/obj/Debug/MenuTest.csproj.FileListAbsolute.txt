@@ -1,0 +1,8 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\bin\Debug\MenuTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\bin\Debug\MenuTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.MenuTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_07\MenuTest\MenuTest\obj\Debug\MenuTest.pdb

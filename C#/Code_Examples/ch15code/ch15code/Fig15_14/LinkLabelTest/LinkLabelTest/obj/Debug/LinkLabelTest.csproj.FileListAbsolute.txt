@@ -1,0 +1,15 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\bin\Debug\LinkLabelTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\bin\Debug\LinkLabelTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.LinkLabelTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.pdb
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.exe
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.pdb
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\bin\Debug\LinkLabelTest.exe
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\bin\Debug\LinkLabelTest.pdb
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.csprojResolveAssemblyReference.cache
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.LinkLabelTestForm.resources
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.Properties.Resources.resources
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_14\LinkLabelTest\LinkLabelTest\obj\Debug\LinkLabelTest.csproj.GenerateResource.Cache
