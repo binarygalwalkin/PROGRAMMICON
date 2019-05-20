@@ -1,0 +1,4 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_06\ListCollection\ListCollection\bin\Debug\ListCollection.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_06\ListCollection\ListCollection\bin\Debug\ListCollection.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_06\ListCollection\ListCollection\obj\Debug\ListCollection.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_06\ListCollection\ListCollection\obj\Debug\ListCollection.pdb
