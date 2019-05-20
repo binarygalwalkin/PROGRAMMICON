@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>&nbsp;</p>
+<p><strong>Class Computer</strong></p>
+<p>public abstract class Computer {<br />
+  <br />
+public abstract String getRAM();<br />
+public abstract String getHDD();<br />
+public abstract String getCPU();<br />
+<br />
+@Override<br />
+public String toString(){<br />
+return &quot;RAM= &quot;+this.getRAM()+&quot;, HDD=&quot;+this.getHDD()+&quot;, CPU=&quot;+this.getCPU();<br />
+}<br />
+}</p>
+<p><strong>Class ComputerFactory</strong></p>
+<p>public class ComputerFactory {</p>
+<p> public static Computer getComputer(String type, String ram, String hdd, String cpu)<br />
+  <br />
+  { &nbsp;&nbsp; if(&quot;PC&quot;.equalsIgnoreCase(type)) <br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return new PC(ram, hdd, cpu);
+  <br />
+ &nbsp;&nbsp;&nbsp;&nbsp; else if(&quot;Server&quot;.equalsIgnoreCase(type)) return new Server(ram, hdd, cpu);<br />
+  <br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return null;<br />
+  }<br />
+}</p>
+<p><strong>Class PC</strong></p>
+<p>public class PC extends Computer {</p>
+<p> private String ram;<br />
+  private String hdd;<br />
+  private String cpu;<br />
+  <br />
+  public PC(String ram, String hdd, String cpu){<br />
+  this.ram=ram;<br />
+  this.hdd=hdd;<br />
+  this.cpu=cpu;<br />
+  }<br />
+  @Override<br />
+  public String getRAM() {<br />
+  return this.ram;<br />
+  }</p>
+<p> @Override<br />
+  public String getHDD() {<br />
+  return this.hdd;<br />
+  }</p>
+<p> @Override<br />
+  public String getCPU() {<br />
+  return this.cpu;<br />
+  }</p>
+<p>}</p>
+<p><strong>Class Server</strong></p>
+<p>public class Server extends Computer {</p>
+<p> private String ram;<br />
+  private String hdd;<br />
+  private String cpu;<br />
+  <br />
+  public Server(String ram, String hdd, String cpu){<br />
+  this.ram=ram;<br />
+  this.hdd=hdd;<br />
+  this.cpu=cpu;<br />
+  }<br />
+  @Override<br />
+  public String getRAM() {<br />
+  return this.ram;<br />
+  }</p>
+<p> @Override<br />
+  public String getHDD() {<br />
+  return this.hdd;<br />
+  }</p>
+<p> @Override<br />
+  public String getCPU() {<br />
+  return this.cpu;<br />
+  }</p>
+<p>}</p>
+<p><strong>Class SingletonComputerFactory</strong></p>
+<p>public class SingletonComputerFactory {<br />
+private static SingletonComputerFactory singletonFactory;</p>
+<p> // SingletonExample prevents any other class from instantiating</p>
+<p> private SingletonComputerFactory() {</p>
+<p> }</p>
+<p> // Providing Global point of access</p>
+<p> public static SingletonComputerFactory getSingletonFactory() {</p>
+<p> if (null == singletonFactory) {</p>
+<p> singletonFactory = new SingletonComputerFactory();</p>
+<p> }<br />
+  return singletonFactory;<br />
+  }</p>
+<p> public  Computer getComputer(String type, String ram, String hdd, String cpu)<br />
+  { &nbsp; if(&quot;PC&quot;.equalsIgnoreCase(type))<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return new PC(ram, hdd, cpu);<br />
+ &nbsp;&nbsp;&nbsp;&nbsp; else if(&quot;Server&quot;.equalsIgnoreCase(type))<br />
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return new Server(ram, hdd, cpu);
+  <br />
+ &nbsp;&nbsp;&nbsp;&nbsp; return null;<br />
+  }<br />
+}</p>
+<p><strong>Class TestFactory </strong>(Using Singleton)</p>
+<p>public class TestFactory {</p>
+<p> public static void main(String[] args) {<br />
+  SingletonComputerFactory fc = SingletonComputerFactory.getSingletonFactory();<br />
+  Computer pc = fc.getComputer(&quot;pc&quot;,&quot;2 GB&quot;,&quot;500 GB&quot;,&quot;2.4 GHz&quot;);<br />
+  Computer server = fc.getComputer(&quot;server&quot;,&quot;16 GB&quot;,&quot;1 TB&quot;,&quot;2.9 GHz&quot;);<br />
+  System.out.println(&quot;Factory PC Config::&quot;+pc);<br />
+  System.out.println(&quot;Factory Server Config::&quot;+server);<br />
+  }</p>
+<p>}</p>
+<p><u>Run&nbsp;time output</u></p>
+<p>Factory PC Config::RAM= 2 GB, HDD=500 GB, CPU=2.4 GHz<br />
+  Factory Server Config::RAM= 16 GB, HDD=1 TB, CPU=2.9 GHz<br />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
