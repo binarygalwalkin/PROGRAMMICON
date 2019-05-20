@@ -1,0 +1,9 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\bin\Debug\RadioButtonTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\bin\Debug\RadioButtonTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.RadioButtonTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.exe
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_28\RadioButtonTest\RadioButtonTest\obj\x86\Debug\RadioButtonTest.pdb
