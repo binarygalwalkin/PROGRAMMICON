@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BooksModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="BooksModelStoreContainer">
+          <EntitySet Name="AuthorISBN" EntityType="BooksModel.Store.AuthorISBN" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Authors" EntityType="BooksModel.Store.Authors" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Titles" EntityType="BooksModel.Store.Titles" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_AuthorISBN_Authors" Association="BooksModel.Store.FK_AuthorISBN_Authors">
+            <End Role="Authors" EntitySet="Authors" />
+            <End Role="AuthorISBN" EntitySet="AuthorISBN" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AuthorISBN_Titles" Association="BooksModel.Store.FK_AuthorISBN_Titles">
+            <End Role="Titles" EntitySet="Titles" />
+            <End Role="AuthorISBN" EntitySet="AuthorISBN" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="AuthorISBN">
+          <Key>
+            <PropertyRef Name="AuthorID" />
+            <PropertyRef Name="ISBN" />
+          </Key>
+          <Property Name="AuthorID" Type="int" Nullable="false" />
+          <Property Name="ISBN" Type="varchar" Nullable="false" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Authors">
+          <Key>
+            <PropertyRef Name="AuthorID" />
+          </Key>
+          <Property Name="AuthorID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Titles">
+          <Key>
+            <PropertyRef Name="ISBN" />
+          </Key>
+          <Property Name="ISBN" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="EditionNumber" Type="int" Nullable="false" />
+          <Property Name="Copyright" Type="varchar" Nullable="false" MaxLength="4" />
+        </EntityType>
+        <Association Name="FK_AuthorISBN_Authors">
+          <End Role="Authors" Type="BooksModel.Store.Authors" Multiplicity="1" />
+          <End Role="AuthorISBN" Type="BooksModel.Store.AuthorISBN" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Authors">
+              <PropertyRef Name="AuthorID" />
+            </Principal>
+            <Dependent Role="AuthorISBN">
+              <PropertyRef Name="AuthorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AuthorISBN_Titles">
+          <End Role="Titles" Type="BooksModel.Store.Titles" Multiplicity="1" />
+          <End Role="AuthorISBN" Type="BooksModel.Store.AuthorISBN" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Titles">
+              <PropertyRef Name="ISBN" />
+            </Principal>
+            <Dependent Role="AuthorISBN">
+              <PropertyRef Name="ISBN" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BooksModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="BooksEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Authors" EntityType="BooksModel.Author" />
+          <EntitySet Name="Titles" EntityType="BooksModel.Title" />
+          <AssociationSet Name="AuthorISBN" Association="BooksModel.AuthorISBN">
+            <End Role="Authors" EntitySet="Authors" />
+            <End Role="Titles" EntitySet="Titles" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Author">
+          <Key>
+            <PropertyRef Name="AuthorID" />
+          </Key>
+          <Property Name="AuthorID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Titles" Relationship="BooksModel.AuthorISBN" FromRole="Authors" ToRole="Titles" />
+        </EntityType>
+        <EntityType Name="Title">
+          <Key>
+            <PropertyRef Name="ISBN" />
+          </Key>
+          <Property Name="ISBN" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="Title1" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="EditionNumber" Type="Int32" Nullable="false" />
+          <Property Name="Copyright" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Authors" Relationship="BooksModel.AuthorISBN" FromRole="Titles" ToRole="Authors" />
+        </EntityType>
+        <Association Name="AuthorISBN">
+          <End Role="Authors" Type="BooksModel.Author" Multiplicity="*" />
+          <End Role="Titles" Type="BooksModel.Title" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BooksModelStoreContainer" CdmEntityContainer="BooksEntities">
+          <EntitySetMapping Name="Authors">
+            <EntityTypeMapping TypeName="BooksModel.Author">
+              <MappingFragment StoreEntitySet="Authors">
+                <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Titles">
+            <EntityTypeMapping TypeName="BooksModel.Title">
+              <MappingFragment StoreEntitySet="Titles">
+                <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+                <ScalarProperty Name="Title1" ColumnName="Title" />
+                <ScalarProperty Name="EditionNumber" ColumnName="EditionNumber" />
+                <ScalarProperty Name="Copyright" ColumnName="Copyright" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="AuthorISBN" TypeName="BooksModel.AuthorISBN" StoreEntitySet="AuthorISBN">
+            <EndProperty Name="Authors">
+              <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+            </EndProperty>
+            <EndProperty Name="Titles">
+              <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

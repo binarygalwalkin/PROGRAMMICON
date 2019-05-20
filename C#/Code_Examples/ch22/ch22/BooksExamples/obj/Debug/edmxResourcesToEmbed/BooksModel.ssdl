@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BooksModelStoreContainer">
+    <EntitySet Name="AuthorISBN" EntityType="BooksModel.Store.AuthorISBN" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Authors" EntityType="BooksModel.Store.Authors" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Titles" EntityType="BooksModel.Store.Titles" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AuthorISBN_Authors" Association="BooksModel.Store.FK_AuthorISBN_Authors">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="AuthorISBN" EntitySet="AuthorISBN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AuthorISBN_Titles" Association="BooksModel.Store.FK_AuthorISBN_Titles">
+      <End Role="Titles" EntitySet="Titles" />
+      <End Role="AuthorISBN" EntitySet="AuthorISBN" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AuthorISBN">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="AuthorID" Type="int" Nullable="false" />
+    <Property Name="ISBN" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Authors">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+    </Key>
+    <Property Name="AuthorID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Titles">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="Title" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="EditionNumber" Type="int" Nullable="false" />
+    <Property Name="Copyright" Type="varchar" Nullable="false" MaxLength="4" />
+  </EntityType>
+  <Association Name="FK_AuthorISBN_Authors">
+    <End Role="Authors" Type="BooksModel.Store.Authors" Multiplicity="1" />
+    <End Role="AuthorISBN" Type="BooksModel.Store.AuthorISBN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="AuthorID" />
+      </Principal>
+      <Dependent Role="AuthorISBN">
+        <PropertyRef Name="AuthorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AuthorISBN_Titles">
+    <End Role="Titles" Type="BooksModel.Store.Titles" Multiplicity="1" />
+    <End Role="AuthorISBN" Type="BooksModel.Store.AuthorISBN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Titles">
+        <PropertyRef Name="ISBN" />
+      </Principal>
+      <Dependent Role="AuthorISBN">
+        <PropertyRef Name="ISBN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

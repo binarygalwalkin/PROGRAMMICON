@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BooksEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="BooksModel.Author" />
+    <EntitySet Name="Titles" EntityType="BooksModel.Title" />
+    <AssociationSet Name="AuthorISBN" Association="BooksModel.AuthorISBN">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="Titles" EntitySet="Titles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+    </Key>
+    <Property Name="AuthorID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Titles" Relationship="BooksModel.AuthorISBN" FromRole="Authors" ToRole="Titles" />
+  </EntityType>
+  <EntityType Name="Title">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Title1" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="EditionNumber" Type="Int32" Nullable="false" />
+    <Property Name="Copyright" Type="String" Nullable="false" MaxLength="4" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Authors" Relationship="BooksModel.AuthorISBN" FromRole="Titles" ToRole="Authors" />
+  </EntityType>
+  <Association Name="AuthorISBN">
+    <End Role="Authors" Type="BooksModel.Author" Multiplicity="*" />
+    <End Role="Titles" Type="BooksModel.Title" Multiplicity="*" />
+  </Association>
+</Schema>
