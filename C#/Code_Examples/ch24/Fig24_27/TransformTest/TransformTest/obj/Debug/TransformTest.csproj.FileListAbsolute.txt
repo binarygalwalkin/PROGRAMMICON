@@ -1,0 +1,10 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\bin\Debug\sports.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\bin\Debug\sports.xsl
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\bin\Debug\TransformTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\bin\Debug\TransformTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\obj\Debug\TransformTest.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\obj\Debug\TransformTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\obj\Debug\TransformTest.TransformTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\obj\Debug\TransformTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\obj\Debug\TransformTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_27\TransformTest\TransformTest\obj\Debug\TransformTest.pdb

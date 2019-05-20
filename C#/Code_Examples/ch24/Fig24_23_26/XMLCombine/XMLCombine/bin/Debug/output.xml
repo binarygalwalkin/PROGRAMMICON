@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<employeelist xmlns="http://www.deitel.com/employeesnew">
+  <employee name="Jenn Brown" salary="2300" />
+  <employee name="Percy Indigo" salary="1415" />
+  <employee name="Christopher Green" salary="1460" />
+  <employee name="Michael Red" salary="1420" />
+</employeelist>

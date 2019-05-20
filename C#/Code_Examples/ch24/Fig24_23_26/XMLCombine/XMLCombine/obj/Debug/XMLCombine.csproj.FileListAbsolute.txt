@@ -1,0 +1,7 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\bin\Debug\employeesNew.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\bin\Debug\employeesOld.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\bin\Debug\XMLCombine.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\bin\Debug\XMLCombine.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\obj\Debug\XMLCombine.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\obj\Debug\XMLCombine.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_23_26\XMLCombine\XMLCombine\obj\Debug\XMLCombine.pdb
