@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HalloweenModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="HalloweenModelStoreContainer">
+    <EntitySet Name="Products" EntityType="HalloweenModel.Store.Products" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ShortDescription" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="LongDescription" Type="varchar" Nullable="false" MaxLength="2000" />
+    <Property Name="CategoryID" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="ImageFile" Type="varchar" MaxLength="30" />
+    <Property Name="UnitPrice" Type="money" Nullable="false" />
+    <Property Name="OnHand" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HalloweenModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ShortName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="LongName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="State" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="ZipCode" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="State1" Relationship="Self.FK_Customers_States" FromRole="Customers" ToRole="States" />
+    <NavigationProperty Name="Invoices" Relationship="Self.FK_Invoices_Customers" FromRole="Customers" ToRole="Invoices" />
+  </EntityType>
+  <EntityType Name="Invoice">
+    <Key>
+      <PropertyRef Name="InvoiceNumber" />
+    </Key>
+    <Property Name="InvoiceNumber" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustEmail" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OrderDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Subtotal" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="ShipMethod" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Shipping" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="SalesTax" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Total" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="CreditCardType" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CardNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ExpirationMonth" Type="Int16" Nullable="false" />
+    <Property Name="ExpirationYear" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="Self.FK_Invoices_Customers" FromRole="Invoices" ToRole="Customers" />
+    <NavigationProperty Name="LineItems" Relationship="Self.FK_LineItems_Invoices" FromRole="Invoices" ToRole="LineItems" />
+  </EntityType>
+  <EntityType Name="LineItem">
+    <Key>
+      <PropertyRef Name="InvoiceNumber" />
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="InvoiceNumber" Type="Int32" Nullable="false" />
+    <Property Name="ProductID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="Quantity" Type="Int32" Nullable="false" />
+    <Property Name="Extension" Type="Decimal" Precision="19" Scale="4" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="Invoice" Relationship="Self.FK_LineItems_Invoices" FromRole="LineItems" ToRole="Invoices" />
+    <NavigationProperty Name="Product" Relationship="Self.FK_LineItems_Products" FromRole="LineItems" ToRole="Products" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ShortDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LongDescription" Type="String" MaxLength="2000" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CategoryID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ImageFile" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="OnHand" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="LineItems" Relationship="Self.FK_LineItems_Products" FromRole="Products" ToRole="LineItems" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateCode" />
+    </Key>
+    <Property Name="StateCode" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="StateName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Customers" Relationship="Self.FK_Customers_States" FromRole="States" ToRole="Customers" />
+  </EntityType>
+  <EntityType Name="InvoiceData">
+    <Key>
+      <PropertyRef Name="SalesTax" />
+    </Key>
+    <Property Name="SalesTax" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Customers_States">
+    <End Role="States" Type="Self.State" Multiplicity="1" />
+    <End Role="Customers" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="States">
+        <PropertyRef Name="StateCode" />
+      </Principal>
+      <Dependent Role="Customers">
+        <PropertyRef Name="State" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Invoices_Customers">
+    <End Role="Customers" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Invoices" Type="Self.Invoice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customers">
+        <PropertyRef Name="Email" />
+      </Principal>
+      <Dependent Role="Invoices">
+        <PropertyRef Name="CustEmail" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LineItems_Invoices">
+    <End Role="Invoices" Type="Self.Invoice" Multiplicity="1" />
+    <End Role="LineItems" Type="Self.LineItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Invoices">
+        <PropertyRef Name="InvoiceNumber" />
+      </Principal>
+      <Dependent Role="LineItems">
+        <PropertyRef Name="InvoiceNumber" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LineItems_Products">
+    <End Role="Products" Type="Self.Product" Multiplicity="1" />
+    <End Role="LineItems" Type="Self.LineItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="LineItems">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HalloweenEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Invoices" EntityType="Self.Invoice" />
+    <EntitySet Name="LineItems" EntityType="Self.LineItem" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="States" EntityType="Self.State" />
+    <EntitySet Name="InvoiceDatas" EntityType="Self.InvoiceData" />
+    <AssociationSet Name="FK_Customers_States" Association="Self.FK_Customers_States">
+      <End Role="States" EntitySet="States" />
+      <End Role="Customers" EntitySet="Customers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Invoices_Customers" Association="Self.FK_Invoices_Customers">
+      <End Role="Customers" EntitySet="Customers" />
+      <End Role="Invoices" EntitySet="Invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LineItems_Invoices" Association="Self.FK_LineItems_Invoices">
+      <End Role="Invoices" EntitySet="Invoices" />
+      <End Role="LineItems" EntitySet="LineItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LineItems_Products" Association="Self.FK_LineItems_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="LineItems" EntitySet="LineItems" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
