@@ -1,0 +1,14 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\bin\Debug\Painter.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\bin\Debug\Painter.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.PainterForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.exe
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\bin\Debug\Painter.exe
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\bin\Debug\Painter.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.PainterForm.resources
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.Properties.Resources.resources
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_38\Painter\Painter\obj\x86\Debug\Painter.csproj.GenerateResource.Cache
