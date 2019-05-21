@@ -1,0 +1,4 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_07\LINQWithListCollection\LINQWithListCollection\bin\Debug\LINQWithListCollection.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_07\LINQWithListCollection\LINQWithListCollection\bin\Debug\LINQWithListCollection.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_07\LINQWithListCollection\LINQWithListCollection\obj\Debug\LINQWithListCollection.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_07\LINQWithListCollection\LINQWithListCollection\obj\Debug\LINQWithListCollection.pdb

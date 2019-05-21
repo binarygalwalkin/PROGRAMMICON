@@ -1,0 +1,34 @@
+﻿h1 { 
+    padding: 0;
+    margin-bottom: .25em;
+}
+/* The styles for the div containing the cart */
+#cartContainer {
+    margin-left: 1em;
+}
+/* The styles for the cart */
+#lstCart { 
+    height: 135px;
+    width: 300px;
+    margin: 0 0 1em;
+    float: left;
+}
+/* The styles for the buttons to the right of the cart */
+#btnRemove, #btnEmpty {
+    margin-left: 1em;
+}
+#btnRemove {
+    margin-bottom: 1em;
+}
+/* The styles for the div and buttons below the cart */
+#shopbuttons {
+    clear: both;
+}
+#btnContinue {
+    margin-right: 1em;
+}
+/* The style for the message that's displayed
+when the user clicks the button to check out */
+#message {
+    color: Green;
+}

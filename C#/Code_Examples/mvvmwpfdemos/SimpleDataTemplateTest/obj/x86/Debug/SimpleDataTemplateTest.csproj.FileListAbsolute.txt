@@ -1,0 +1,13 @@
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\bin\Debug\SimpleDataTemplateTest.exe
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\bin\Debug\SimpleDataTemplateTest.pdb
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest.csprojResolveAssemblyReference.cache
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\MainWindow.g.cs
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\App.g.cs
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest_MarkupCompile.cache
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest_MarkupCompile.lref
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\MainWindow.baml
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest.g.resources
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest.Properties.Resources.resources
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest.csproj.GenerateResource.Cache
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest.exe
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\SimpleDataTemplateTest\obj\x86\Debug\SimpleDataTemplateTest.pdb

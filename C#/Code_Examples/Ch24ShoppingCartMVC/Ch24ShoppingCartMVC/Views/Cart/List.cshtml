@@ -1,0 +1,21 @@
+﻿@model Ch24ShoppingCartMVC.Models.CartViewModel
+@{
+    ViewBag.Title = "Cart";
+}
+@section css {
+    <link href="~/Content/Cart.css" rel="stylesheet" />
+}
+<h2>Your Shopping Cart</h2>
+@if (Model.Cart.Count == 0)
+{
+    <p>Nothing in your cart yet.</p>
+}
+else
+{
+    <select multiple="multiple">
+        @foreach (var item in Model.Cart)
+        {
+            <option>@item.Display()</option>
+        }
+    </select>
+}

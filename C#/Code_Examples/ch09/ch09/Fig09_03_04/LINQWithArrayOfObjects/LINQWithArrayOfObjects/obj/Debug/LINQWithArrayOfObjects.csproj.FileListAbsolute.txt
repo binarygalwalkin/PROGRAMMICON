@@ -1,0 +1,4 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_03_04\LINQWithArrayOfObjects\LINQWithArrayOfObjects\bin\Debug\LINQWithArrayOfObjects.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_03_04\LINQWithArrayOfObjects\LINQWithArrayOfObjects\bin\Debug\LINQWithArrayOfObjects.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_03_04\LINQWithArrayOfObjects\LINQWithArrayOfObjects\obj\Debug\LINQWithArrayOfObjects.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch09\Fig09_03_04\LINQWithArrayOfObjects\LINQWithArrayOfObjects\obj\Debug\LINQWithArrayOfObjects.pdb

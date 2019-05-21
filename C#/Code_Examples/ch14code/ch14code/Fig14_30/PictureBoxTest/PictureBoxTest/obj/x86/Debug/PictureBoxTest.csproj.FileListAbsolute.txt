@@ -1,0 +1,15 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\bin\Debug\PictureBoxTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\bin\Debug\PictureBoxTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.PictureBoxTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.exe
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\bin\Debug\PictureBoxTest.exe
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\bin\Debug\PictureBoxTest.pdb
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.csprojResolveAssemblyReference.cache
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.PictureBoxTestForm.resources
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.Properties.Resources.resources
+F:\cecs475sp14\codeexamples\ch14\ch14code\Fig14_30\PictureBoxTest\PictureBoxTest\obj\x86\Debug\PictureBoxTest.csproj.GenerateResource.Cache

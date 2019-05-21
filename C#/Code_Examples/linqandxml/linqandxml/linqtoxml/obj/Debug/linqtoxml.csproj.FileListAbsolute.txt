@@ -1,0 +1,5 @@
+C:\temp\linqtoxml\linqtoxml\bin\Debug\linqtoxml.exe.config
+C:\temp\linqtoxml\linqtoxml\bin\Debug\linqtoxml.exe
+C:\temp\linqtoxml\linqtoxml\bin\Debug\linqtoxml.pdb
+C:\temp\linqtoxml\linqtoxml\obj\Debug\linqtoxml.exe
+C:\temp\linqtoxml\linqtoxml\obj\Debug\linqtoxml.pdb

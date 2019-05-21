@@ -1,0 +1,9 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\bin\Debug\FlickrViewer.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.FickrViewerForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FlickrViewer\FlickrViewer\obj\Debug\FlickrViewer.csprojResolveAssemblyReference.cache

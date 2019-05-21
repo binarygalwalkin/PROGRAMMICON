@@ -1,0 +1,72 @@
+﻿body {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 85%;
+    width: 700px;
+    min-height: 400px;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+nav {
+    float:left;
+    width: 120px;
+}
+nav p{
+    margin: 1em;
+}
+nav a, nav a :hover, nav a :visited {
+    color: darkorange;
+    font-weight: bold;
+}
+header {
+    /*height: 100px;*/
+    width: 700px;
+    background: #ffffff url('../Images/banner.jpg') no-repeat; 
+    padding-bottom: 1em;
+}
+section {
+    float:left;
+    width: 550px;
+    padding-left: 1em;
+}
+footer {
+    clear: both;
+    font-size: small;
+    text-align: center;
+}
+.checkout {
+    margin: 1em;
+}
+.checkout .entry {
+    margin-left: 1em;
+    width: 18em;
+    float: left;
+}
+.checkout label {
+    width: 8em;
+    text-align: right;
+    float: left;   
+}
+.button {
+    width: 10em;
+    padding: 0.5em 0;
+    margin: 0 0.5em;
+}
+.validator {
+    margin-left: 1em;
+    color: red;
+}
+.center {
+    text-align: center;
+}
+#map {
+    font-family: Verdana, Sans-Serif;
+    font-size: 80%;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+#copyright {
+    padding-top: 1em;
+}

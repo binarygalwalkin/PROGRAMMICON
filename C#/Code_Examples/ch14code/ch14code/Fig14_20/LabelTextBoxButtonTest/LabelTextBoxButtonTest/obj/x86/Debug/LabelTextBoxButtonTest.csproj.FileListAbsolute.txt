@@ -1,0 +1,10 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\bin\Debug\LabelTextBoxButtonTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\bin\Debug\LabelTextBoxButtonTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.LabelTextBoxButtonTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.pdb
+F:\cecs475sp14\codeexamples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.exe
+F:\cecs475sp14\codeexamples\ch14\Fig14_20\LabelTextBoxButtonTest\LabelTextBoxButtonTest\obj\x86\Debug\LabelTextBoxButtonTest.pdb

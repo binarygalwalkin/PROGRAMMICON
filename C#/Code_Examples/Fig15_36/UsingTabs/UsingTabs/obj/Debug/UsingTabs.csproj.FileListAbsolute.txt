@@ -1,0 +1,7 @@
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\bin\Debug\UsingTabs.exe
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\bin\Debug\UsingTabs.pdb
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\obj\Debug\UsingTabs.UsingTabsForm.resources
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\obj\Debug\UsingTabs.Properties.Resources.resources
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\obj\Debug\UsingTabs.csproj.GenerateResource.Cache
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\obj\Debug\UsingTabs.exe
+F:\cecs475sp14\codeexamples\ch15\ch15code\Fig15_36\UsingTabs\UsingTabs\obj\Debug\UsingTabs.pdb

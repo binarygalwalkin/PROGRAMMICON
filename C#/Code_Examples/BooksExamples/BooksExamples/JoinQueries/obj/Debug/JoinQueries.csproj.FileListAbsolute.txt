@@ -1,0 +1,110 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\BooksExamples.dll
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\BooksExamples.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch18\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\BooksExamples.dll
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\BooksExamples.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch22\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\BooksExamples.dll
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\BooksExamples.pdb
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\cecs475sp16\labs\linqquery\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\BooksExamples.dll
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\BooksExamples.pdb
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\Users\ChildOfMars\Desktop\workspace\CECS 475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\cecs475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\cecs475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\BooksExamples.dll
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\BooksExamples.pdb
+C:\cecs475\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\cecs475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\cecs475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\cecs475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\cecs475\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\Books.mdf
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\Books_log.ldf
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\JoinQueries.pdb
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\BooksExamples.dll
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\EntityFramework.dll
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\BooksExamples.pdb
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\bin\Debug\EntityFramework.xml
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\Users\pnguyen\Downloads\BooksExamples(1)\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\cecs 475 fa16\BooksExamples\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\cecs 475 fa16\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\cecs 475 fa16\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\cecs 475 fa16\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\cecs 475 fa16\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\cecs 475 fa16\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\cecs 475 fa16\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\cecs 475 fa16\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache
+C:\cecs475sp17\BooksExamples\JoinQueries\bin\Debug\JoinQueries.exe.config
+C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.exe
+C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.pdb
+C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csprojResolveAssemblyReference.cache
+C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.JoiningTableData.resources
+C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.Properties.Resources.resources
+C:\cecs475sp17\BooksExamples\JoinQueries\obj\Debug\JoinQueries.csproj.GenerateResource.Cache

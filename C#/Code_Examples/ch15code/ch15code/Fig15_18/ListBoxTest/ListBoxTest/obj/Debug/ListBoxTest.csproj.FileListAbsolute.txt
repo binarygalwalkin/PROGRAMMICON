@@ -1,0 +1,8 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\bin\Debug\ListBoxTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\bin\Debug\ListBoxTest.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\obj\Debug\ListBoxTest.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\obj\Debug\ListBoxTest.ListBoxTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\obj\Debug\ListBoxTest.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\obj\Debug\ListBoxTest.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\obj\Debug\ListBoxTest.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch15\Fig15_18\ListBoxTest\ListBoxTest\obj\Debug\ListBoxTest.pdb

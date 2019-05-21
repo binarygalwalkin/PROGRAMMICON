@@ -1,0 +1,9 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\bin\Debug\sports.xml
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\bin\Debug\PathNavigator.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\bin\Debug\PathNavigator.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\obj\Debug\PathNavigator.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\obj\Debug\PathNavigator.PathNavigatorForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\obj\Debug\PathNavigator.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\obj\Debug\PathNavigator.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\obj\Debug\PathNavigator.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch24\Fig24_21\PathNavigator\PathNavigator\obj\Debug\PathNavigator.pdb

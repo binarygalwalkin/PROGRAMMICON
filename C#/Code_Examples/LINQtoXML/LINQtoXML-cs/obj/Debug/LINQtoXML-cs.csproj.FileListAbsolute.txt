@@ -1,0 +1,16 @@
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\bin\Debug\LINQtoXML-cs.exe
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\bin\Debug\LINQtoXML-cs.pdb
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\obj\Debug\LINQtoXML_cs.Properties.Resources.resources
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\obj\Debug\LINQtoXML-cs.csproj.GenerateResource.Cache
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\obj\Debug\LINQtoXML-cs.exe
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\obj\Debug\LINQtoXML-cs.pdb
+C:\Users\David.Lewis\Documents\Visual Studio 2008\Projects\LINQtoXML-cs\LINQtoXML-cs\obj\Debug\LINQtoXML_cs.Form1.resources
+F:\cecs475sp10\linqxml\LINQtoXML-cs\obj\Debug\LINQtoXML-cs.exe
+F:\cecs475sp10\linqxml\LINQtoXML-cs\obj\Debug\LINQtoXML-cs.pdb
+F:\cecs475sp10\linqxml\LINQtoXML-cs\bin\Debug\LINQtoXML-cs.exe
+F:\cecs475sp10\linqxml\LINQtoXML-cs\bin\Debug\LINQtoXML-cs.pdb
+F:\cecs475sp10\linqxml\LINQtoXML-cs\obj\Debug\ResolveAssemblyReference.cache
+F:\cecs475sp10\linqxml\LINQtoXML-cs\obj\Debug\LINQtoXML_cs.Form1.resources
+F:\cecs475sp10\linqxml\LINQtoXML-cs\obj\Debug\LINQtoXML_cs.Properties.Resources.resources
+F:\cecs475sp10\linqxml\LINQtoXML-cs\obj\Debug\LINQtoXML-cs.csproj.GenerateResource.Cache

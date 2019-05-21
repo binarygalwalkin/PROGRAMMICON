@@ -1,0 +1,5 @@
+F:\cecs475sp10\LinqToXmlBasics\bin\Debug\LinqToXmlBasics.exe
+F:\cecs475sp10\LinqToXmlBasics\bin\Debug\LinqToXmlBasics.pdb
+F:\cecs475sp10\LinqToXmlBasics\obj\Debug\ResolveAssemblyReference.cache
+F:\cecs475sp10\LinqToXmlBasics\obj\Debug\LinqToXmlBasics.exe
+F:\cecs475sp10\LinqToXmlBasics\obj\Debug\LinqToXmlBasics.pdb

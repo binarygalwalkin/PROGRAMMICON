@@ -1,0 +1,16 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\bin\Debug\SimpleEventExample.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\bin\Debug\SimpleEventExample.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.SimpleEventExampleForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.csproj.GenerateResource.Cache
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.pdb
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.exe
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.pdb
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\bin\Debug\SimpleEventExample.exe
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\bin\Debug\SimpleEventExample.pdb
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.csprojResolveAssemblyReference.cache
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.Properties.Resources.resources
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.SimpleEventExampleForm.resources
+F:\cecs475sp14\codeexamples\ch14\Fig14_05\SimpleEventExample\SimpleEventExample\obj\x86\Debug\SimpleEventExample.csproj.GenerateResource.Cache

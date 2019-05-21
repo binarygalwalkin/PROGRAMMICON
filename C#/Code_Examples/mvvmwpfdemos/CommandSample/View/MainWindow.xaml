@@ -1,0 +1,13 @@
+﻿<Window x:Class="CommandSample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="250" Width="325">
+    <Grid>
+        <Button Content="Call Command"
+                Width="100"
+                Height="25"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Command="{Binding TheCommand}"/>
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BooksModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+    </Key>
+    <Property Name="AuthorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Titles" Relationship="Self.AuthorISBN" FromRole="Authors" ToRole="Titles" />
+  </EntityType>
+  <EntityType Name="Title">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Title1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EditionNumber" Type="Int32" Nullable="false" />
+    <Property Name="Copyright" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Authors" Relationship="Self.AuthorISBN" FromRole="Titles" ToRole="Authors" />
+  </EntityType>
+  <Association Name="AuthorISBN">
+    <End Role="Authors" Type="Self.Author" Multiplicity="*" />
+    <End Role="Titles" Type="Self.Title" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="BooksEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Authors" EntityType="Self.Author" />
+    <EntitySet Name="Titles" EntityType="Self.Title" />
+    <AssociationSet Name="AuthorISBN" Association="Self.AuthorISBN">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="Titles" EntitySet="Titles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
