@@ -1,0 +1,36 @@
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\MainWindow.g.cs
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\View\SenderView.g.cs
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\App.g.cs
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm_MarkupCompile.cache
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm_MarkupCompile.lref
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\wpfmvvm.exe.config
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\wpfmvvm.exe
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\wpfmvvm.pdb
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.dll
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\System.Windows.Interactivity.dll
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.pdb
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.xml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\App.baml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\MainWindow.baml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\View\SenderView.baml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.g.resources
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.Properties.Resources.resources
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.csproj.GenerateResource.Cache
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.exe
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.pdb
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.csprojResolveAssemblyReference.cache
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\View\ReceiverView.baml
+c:\users\pnguyen\documents\visual studio 2015\Projects\wpfmvvm\wpfmvvm\obj\Debug\View\ReceiverView.g.cs
+C:\cecs475sp17\wpfmvvm\wpfmvvm\bin\Debug\wpfmvvm.exe.config
+C:\cecs475sp17\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.exe
+C:\cecs475sp17\wpfmvvm\wpfmvvm\obj\Debug\wpfmvvm.pdb
