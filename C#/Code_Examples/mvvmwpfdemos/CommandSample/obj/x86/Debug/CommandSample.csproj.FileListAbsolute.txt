@@ -1,0 +1,14 @@
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\bin\Debug\CommandSample.exe
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\bin\Debug\CommandSample.pdb
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample.csprojResolveAssemblyReference.cache
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\App.g.cs
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample_MarkupCompile.cache
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample.g.resources
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample.Properties.Resources.resources
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample.csproj.GenerateResource.Cache
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample.exe
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\CommandSample.pdb
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\View\MainWindow.baml
+C:\cecs475fa16\SIMPLE_MVVM_SOURCE\SIMPLE_MVVM_ARTICLE\CommandSample\obj\x86\Debug\View\MainWindow.g.cs
+C:\cecs475fa16\MVVM LECTURE NOTES\CommandSample\obj\x86\Debug\CommandSample.exe
+C:\cecs475fa16\MVVM LECTURE NOTES\CommandSample\obj\x86\Debug\CommandSample.pdb
