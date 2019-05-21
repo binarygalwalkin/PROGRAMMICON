@@ -1,0 +1,59 @@
+﻿<Window x:Class="ItemsControlDataTemplateTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:this="clr-namespace:ItemsControlDataTemplateTest"
+        Title="MainWindow"
+        Height="350"
+        Width="525">
+    <Window.Resources>
+        <DataTemplate x:Key="StudentView"
+                      DataType="this:StudentData">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60" />
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Student Data"
+                           Grid.ColumnSpan="4"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontSize="25" />
+
+                <TextBlock Text="Student First Name"
+                           Grid.Row="1"
+                           Grid.Column="1"
+                           VerticalAlignment="Center" />
+
+
+                <TextBox   Text="{Binding Path=StudentFirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                           Grid.Row="1"
+                           Grid.Column="2"
+                           VerticalAlignment="Center" />
+
+                <TextBlock Text="Student GPA"
+                           Grid.Row="2"
+                           Grid.Column="1"
+                           VerticalAlignment="Center" />
+
+
+                <TextBox   Text="{Binding Path=StudentGradePointAverage}"
+                           Grid.Row="2"
+                           Grid.Column="2"
+                           VerticalAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <ItemsControl ItemsSource="{Binding TheStudents}"
+                      ItemTemplate="{StaticResource StudentView}" />
+    </Grid>
+</Window>
