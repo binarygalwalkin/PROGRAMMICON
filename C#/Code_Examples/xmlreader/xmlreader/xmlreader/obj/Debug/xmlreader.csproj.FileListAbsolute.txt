@@ -1,0 +1,5 @@
+C:\Temp\xmlreader\xmlreader\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\xmlreader\xmlreader\bin\Debug\xmlreader.exe
+C:\Temp\xmlreader\xmlreader\bin\Debug\xmlreader.pdb
+C:\Temp\xmlreader\xmlreader\obj\Debug\xmlreader.exe
+C:\Temp\xmlreader\xmlreader\obj\Debug\xmlreader.pdb

@@ -1,0 +1,6 @@
+F:\cecs475sp10\NavigationWithLinqToXml\bin\Debug\Inventory.xml
+F:\cecs475sp10\NavigationWithLinqToXml\bin\Debug\NavigationWithLinqToXml.exe
+F:\cecs475sp10\NavigationWithLinqToXml\bin\Debug\NavigationWithLinqToXml.pdb
+F:\cecs475sp10\NavigationWithLinqToXml\obj\Debug\ResolveAssemblyReference.cache
+F:\cecs475sp10\NavigationWithLinqToXml\obj\Debug\NavigationWithLinqToXml.exe
+F:\cecs475sp10\NavigationWithLinqToXml\obj\Debug\NavigationWithLinqToXml.pdb
