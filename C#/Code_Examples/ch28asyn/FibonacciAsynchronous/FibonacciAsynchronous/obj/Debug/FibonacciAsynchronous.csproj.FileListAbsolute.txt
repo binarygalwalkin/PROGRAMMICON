@@ -1,0 +1,9 @@
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\bin\Debug\FibonacciSynchronous.exe.config
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\obj\Debug\FibonacciSynchronous.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\obj\Debug\FibonacciSynchronous.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\bin\Debug\FibonacciSynchronous.exe
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\bin\Debug\FibonacciSynchronous.pdb
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\obj\Debug\FibonacciAsynchronous.csprojResolveAssemblyReference.cache
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\obj\Debug\FibonacciAsynchronous.AsynchronousTestForm.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\obj\Debug\FibonacciAsynchronous.Properties.Resources.resources
+C:\books\2012\VCSHARP2012HTP\examples\ch28\FibonacciAsynchronous\FibonacciAsynchronous\obj\Debug\FibonacciAsynchronous.csproj.GenerateResource.Cache
